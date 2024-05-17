@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Airline_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Airline_Test(failed)">
+    <classes>
+      <class name="Airline_Testcases.TC15_Make_Payment">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="make_payment"/>
+          <include name="quit_browser"/>
+        </methods>
+      </class> <!-- Airline_Testcases.TC15_Make_Payment -->
+      <class name="Airline_Testcases.TC12_Login_Search_Logout">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="quit_browser"/>
+          <include name="login_search_logout"/>
+        </methods>
+      </class> <!-- Airline_Testcases.TC12_Login_Search_Logout -->
+      <class name="Airline_Testcases.TC11_Passenger_Details_for_Booking">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="passenger_details"/>
+          <include name="quit_browser"/>
+        </methods>
+      </class> <!-- Airline_Testcases.TC11_Passenger_Details_for_Booking -->
+      <class name="Airline_Testcases.TC14_Domestic_Round_Trip_Flights">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="search_domestic_flights"/>
+          <include name="quit_browser"/>
+        </methods>
+      </class> <!-- Airline_Testcases.TC14_Domestic_Round_Trip_Flights -->
+      <class name="Airline_Testcases.TC13_Apply_Coupon_Code">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="quit_browser"/>
+          <include name="apply_coupon_code"/>
+        </methods>
+      </class> <!-- Airline_Testcases.TC13_Apply_Coupon_Code -->
+    </classes>
+  </test> <!-- Airline_Test(failed) -->
+</suite> <!-- Failed suite [Airline_Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Airline_Suite">
+	<test thread-count="5" name="Airline_Test">
+		<classes>
+			<class name="Airline_Testcases.TC1_Register_New_Account" />
+			<class name="Airline_Testcases.TC2_Login_Functionality" />
+			<class name="Airline_Testcases.TC3_Unsuccessful_Login" />
+			<class name="Airline_Testcases.TC4_One_Way_Flights" />
+			<class name="Airline_Testcases.TC5_Round_Trip_Flights" />
+			<class name="Airline_Testcases.TC6_Different_Classes" />
+			<class name="Airline_Testcases.TC7_Multi_City_Flights" />
+			<class name="Airline_Testcases.TC8_Seat_Selection" />
+			<class name="Airline_Testcases.TC9_Multiple_Passangers" />
+			<class name="Airline_Testcases.TC10_Flight_Baggage_Cancel_Info" />
+			<class name="Airline_Testcases.TC11_Passenger_Details_for_Booking" />
+			<class name="Airline_Testcases.TC12_Login_Search_Logout" />
+			<class name="Airline_Testcases.TC13_Apply_Coupon_Code" />
+			<class name="Airline_Testcases.TC14_Domestic_Round_Trip_Flights" />
+			<class name="Airline_Testcases.TC15_Make_Payment" />
+		</classes>
+	</test> <!--
+	Airline_Test -->
+</suite> <!--
+Airline_Suite -->
